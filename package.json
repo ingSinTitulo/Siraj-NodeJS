@@ -1,0 +1,22 @@
+{
+  "name": "siraj-nodejs",
+  "version": "1.0.0",
+  "description": "A traduction of the object oriented version of Siraj Raval's neural network in 4 minutes",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "npx jasmine",
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "AI",
+    "neural",
+    "network"
+  ],
+  "author": "Alan Ramirez Zatarain",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.5.0"
+  }
+}
